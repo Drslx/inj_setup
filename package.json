@@ -1,0 +1,14 @@
+{
+  "name": "inj_setup",
+  "version": "1.0.0",
+  "description": "ajuste de processos",
+  "main": "index.js",
+  "scripts": {
+    "test": "run"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.1"
+  }
+}
