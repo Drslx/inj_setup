@@ -1,1 +1,1 @@
-# Projeto para salvar setups de maquinas injetoras
+# Projeto para salvar processos de maquinas injetoras

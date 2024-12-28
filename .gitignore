@@ -7,6 +7,6 @@
 # Ignorar arquivos de ambiente
 .env
 
-# Ignorar diretórios específicos
-*/project
-
+# Ignorar diretórios específicos 
+informacoes_db.md
+.vscode
