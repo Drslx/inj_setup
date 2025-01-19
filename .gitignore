@@ -5,8 +5,7 @@
 /node_modules
 
 # Ignorar arquivos de ambiente
-.env
+*.env
 
 # Ignorar diretórios específicos 
-informacoes_db.md
-.vscode
+/.vscode
