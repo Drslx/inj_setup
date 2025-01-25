@@ -1,7 +1,8 @@
 # Projeto para salvar processos de maquinas injetoras
 
-0: Criar .env do banco, Testar conexao = OK
-1: Criar DB, Models = Fazer
+? Fazer git flow apos -V0.1
+# 0: Criar .env do banco, testar conexao = Status OK
+1: Criar Rotas, Models = Status = Criandp
 2: Testar DB = Fazer 
 3: Criar API = Fazer
 4: Criar MVP Frontend = Fazer

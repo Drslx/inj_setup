@@ -1,5 +1,9 @@
 /backend
 │
+├── /api/routes      # Rotas (endpoints da API)
+│   ├── userRoutes.js
+│   └── postRoutes.js
+|
 ├── /config      # Arquivos de configuração
 │   ├── db.js    # Configuração do banco de dados
 │   └── server.js # Configuração do servidor
@@ -12,19 +16,15 @@
 │   ├── userModel.js
 │   └── postModel.js
 │
-├── /routes      # Rotas (endpoints da API)
-│   ├── userRoutes.js
-│   └── postRoutes.js
-│
-├── /services    # Serviços (operações específicas)
+├── ? /services    # Serviços (operações específicas)
 │   ├── authService.js
 │   └── emailService.js
 │
-├── /middlewares # Middlewares (processamento antes das rotas)
+├── ? /middlewares # Middlewares (processamento antes das rotas)
 │   ├── authMiddleware.js
 │   └── errorMiddleware.js
 │
-├── /utils       # Utilitários (funções auxiliares)
+├── ? /utils       # Utilitários (funções auxiliares)
 │   ├── logger.js
 │   └── validator.js
 │
