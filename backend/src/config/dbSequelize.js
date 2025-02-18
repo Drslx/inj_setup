@@ -1,13 +1,18 @@
+// Desc: Arquivo de configuração do banco de dados
+// Importando o módulo 'dotenv' para carregar as variáveis de ambiente
 require('dotenv').config();
+
+
+// Importando o módulo 'sequelize' para conexão com o banco de dados
 const { Sequelize } = require('sequelize');
 
-// Configuração da conexão com o banco de dados
+// Criando uma instância do Sequelize
 const sequelize = new Sequelize(process.env.DB_NAME, process.env.DB_USER, process.env.DB_PASS, {
   host: process.env.DB_HOST,
   dialect: process.env.DB_DIALECT // 'mysql', 'postgres', 'sqlite', 'mssql', etc.
 });
 
-// Testando a conexão
+// Testando a conexão com o banco de dados
 (async () => {
   try {
     await sequelize.authenticate(console.log('DB_NAME:', process.env.DB_NAME));

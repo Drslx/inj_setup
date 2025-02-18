@@ -7,6 +7,9 @@ SHOW TABLES;
 CREATE TABLE tb_maquinas (
     id INT AUTO_INCREMENT PRIMARY KEY,
     nome_maquina VARCHAR(50) NOT NULL,
+    nome_cliente VARCHAR(50) NOT NULL,
+    nome_item VARCHAR(50) NOT NULL,
+    codigo_item INT,
     data_criacao TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
 

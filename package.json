@@ -5,9 +5,10 @@
   "main": "server.js",
 
   "scripts": {
-    "test": "run"
+    "test": "run",
+    "start": "nodemon --watch ./main.js"
   },
-  "author": "",
+  "author": "Drslx",
   "license": "ISC",
   "dependencies": {
     "dotenv": "^16.4.7",
