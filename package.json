@@ -6,7 +6,7 @@
 
   "scripts": {
     "test": "run",
-    "start": "nodemon --watch ./main.js"
+    "start": "nodemon ./main.js"
   },
   "author": "Drslx",
   "license": "ISC",

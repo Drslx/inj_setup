@@ -1,14 +1,12 @@
 const express = require("express");
 const app = express();
 const port = process.env.PORT;
+const router = require("../api/routes/routes");
+processRouter = require("../api/routes/routes")
 
-// Importa as rotas
-const routes = require("../api/routes/routes");
-//const processosRouter = require("../api/routes/pages/...");
+app.use("/", router);
+app.use('/processos', processRouter);
 
-// Usa as rotas
-app.use("/", routes);
-//app.use("/processos", processosRouter);
 
 // Inicia o servidor
 app.listen(port, () => {

@@ -2,7 +2,6 @@
 // Importando o módulo 'dotenv' para carregar as variáveis de ambiente
 require('dotenv').config();
 
-
 // Importando o módulo 'sequelize' para conexão com o banco de dados
 const { Sequelize } = require('sequelize');
 
